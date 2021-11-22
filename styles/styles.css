@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    padding: 5%;
+    font: 1.25em Helvetica, monospace;
+    color: #ee7844;
+}
+
+@media (min-width: 768px) {
+    body {
+        padding-top: 8%;
+    }
+}

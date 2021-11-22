@@ -1,0 +1,25 @@
+.link {
+    color: #fa65cf;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #4ae0e0;
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    #container {
+        background-color: rgb(51, 51, 51);
+        display: block;
+        text-align: left;
+        max-width: 42%;
+        margin: 0 auto;
+        padding: 3%;
+    }
+
+    #header {
+        font-size: 3em;
+    }
+}
