@@ -1,8 +1,8 @@
-import UnderConstruction from "../components/UnderConstruction/UnderConstruction";
+
 
 const LandingPage = () => {
 	return (
-		<UnderConstruction />
+		<h1>About tdubs</h1>
 	)
 }
 

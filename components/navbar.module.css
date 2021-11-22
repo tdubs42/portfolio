@@ -1,0 +1,33 @@
+nav#nav {
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    font-size: 2em;
+}
+
+a.link {
+    border-radius: 3rem;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0.5%;
+    padding: 2%;
+    border: #333 solid;
+    width: 15rem;
+}
+
+a.link:nth-child(even) {
+    background-color: rgb(56, 241, 158);
+}
+
+a.link:nth-child(odd) {
+    background-color: rgb(235, 241, 56);
+}
+
+a.link:hover {
+    background-color: revert;
+    border: none;
+    color: antiquewhite;
+}
